@@ -9,6 +9,7 @@ document.getElementById('takedownForm').addEventListener('submit', function(even
   document.getElementById('clientSongInput').addEventListener('input', function(e){
     let clientsong = e.target.value;
     document.getElementById('clientSongOutput').innerHTML = clientsong;
+    document.getElementById('clientSongOutputSubject').innerHTML = clientsong;
   });
   
   
@@ -20,6 +21,7 @@ document.getElementById('takedownForm').addEventListener('submit', function(even
   document.getElementById('artistInput').addEventListener('input', function(e){
     let artistinfr = e.target.value;
     document.getElementById('artistOutput').innerHTML = artistinfr;
+    document.getElementById('artistOutputText').innerHTML = artistinfr;
   });
   
   document.getElementById('ytInput').addEventListener('input', function(e){
@@ -37,6 +39,8 @@ document.getElementById('takedownForm').addEventListener('submit', function(even
     document.getElementById('songOutput').innerHTML = '';
     document.getElementById('artistOutput').innerHTML = '';
     document.getElementById('ytOutput').innerHTML = '';
+    document.getElementById('clientSongOutputSubject').innerHTML = '';
+    document.getElementById('artistOutputText').innerHTML = '';
   }
   
   const copyPasta = () => {
