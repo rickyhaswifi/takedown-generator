@@ -1,0 +1,25 @@
+body {
+  color:#6B6B6B !important;
+  background-color:#EEE !important;
+  }
+  
+  h1{
+  color:#000;
+  }
+  
+  .card{
+    width:500px;
+    color:#000;
+    height:500px;
+    margin:1rem;
+    padding:10px;
+  }
+  
+  ul{
+  list-style:none;
+  }
+  
+  li {
+  color:red;
+  font-weight:bold;
+  }
