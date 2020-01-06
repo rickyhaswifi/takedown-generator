@@ -27,6 +27,7 @@ document.getElementById('takedownForm').addEventListener('submit', function(even
   document.getElementById('ytInput').addEventListener('input', function(e){
     let ytartist = e.target.value;
     document.getElementById('ytOutput').innerHTML = ytartist;
+    document.getElementById('ytHREF').innerHTML = ytartist;
   });
   
   
